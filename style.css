@@ -1,10 +1,14 @@
 
-
 .menu{
     font-family:'Courier New', Courier, monospace;
     width:52px;
     height:19px;
     margin: 5px 10px;
+    color:#E89A1C;
+    font-size:20px;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
 }
 
 .blog{
@@ -12,6 +16,8 @@
     margin: 5px 10px;
     width:41px;
     height:19px;
+    color:#E89A1C;
+    font-size:20px;
 }
 
 .contacts{
@@ -19,6 +25,8 @@
     width:89px;
     height:19px;
     margin: 5px 10px;
+    color:#E89A1C;
+    font-size:20px;
 }
 
 .about{
@@ -26,20 +34,22 @@
     width: 39px;
     height: 19px;
     margin: 5px 10px;
+    color:#E89A1C;
+    font-size:20px;
 }
 
-li:hover{
+/* li:hover{ 
     color:black;
     background-color: tan;
 }
-
+*/
 
 .nav{
     padding: 0 50px;
     margin:1px ;
     height: 110px;
     display: flex;
-    width:1280px; 
+    width:1440px; 
     justify-content: space-between; 
     align-items: center; 
     background-image:url("https://static.vecteezy.com/ti/gratis-vektor/p3/1331268-happy-halloween-aus-dem-gruseligen-schloss-kostenlos-vektor.jpg");
@@ -66,57 +76,64 @@ li:hover{
 
 img{
     height:622px;
-    width:1240px;
+    width:1510px;
    
 }
 
 .centered {
     position: absolute;
     top: 60%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .mennu{
-    color:white;
+    color:#E89A1C;
     font-family: 'Courier New', Courier, monospace;
-    border-bottom: 2px solid peru;
+    border-bottom: 2px solid #9C6409;
 }
 
 .container{
     border-top:20px;
-    border-color: peru;
+    border-color: #9C6409;
     height:600px;
 }
 
 .bottom{
-    width:1240px;
-    height:120px;
-    background-color:darksalmon;
+    width:1510px;
+    height:200px;
+    background-image:url("https://static.vecteezy.com/ti/gratis-vektor/p3/1331268-happy-halloween-aus-dem-gruseligen-schloss-kostenlos-vektor.jpg");
+    background-size: 100%;
+    background-position:bottom;
 }
 
 #programm{
     text-align:center;
     font-family: 'Courier New', Courier, monospace;
-    border:5px saddlebrown solid;
+    border:5px #9C6409 solid;
     width:180px;
     font-weight:bold;
+    color:#E89A1C;
 }
 
 main{
-    width:1240px;
+    width:1510px;
     height:1200px;
+    top: 60%;
+    left: 50%;
+   
 }
 
 .hedd{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    padding: 30px 30px;
+    padding: 20px 30px;
 }
 
 .news{
     background-color:#EFEFEF;
     height:600px;
+    
 }
 
 .one{
@@ -125,16 +142,26 @@ main{
     height:400px;
     display:inline-block;
     margin-top:40px;
-    margin-right:80px;
-    margin-left:90px;
+    margin-right:105px;
+    margin-left:200px;
+    border:#E89A1C 3px solid ;
+    
 }
+
+/*.mouse{
+    width:50px;
+    height:50px;
+    background-image: url("https://i.pinimg.com/736x/fd/58/2a/fd582a41030b6a8453eb18bc76db58d2.jpg");
+    background-size:100%;
+}*/
 
 .two{
     background-color: #FFFFFF;
     width:300px;
     height:400px;
     display:inline-block;
-    margin-right:80px;
+    margin-right:105px;
+    border:#E89A1C 3px solid ;
 }
 
 .three{
@@ -142,6 +169,7 @@ main{
     width:300px;
     height:400px;
     display:inline-block;
+    border:#E89A1C 3px solid ;
 }
 
 #onee{
@@ -165,22 +193,22 @@ main{
     padding: 30px 50px 60px;
 }
 
-.menu {
-    outline: none;
-    text-decoration: none;
-    padding: 2px 1px 0;
-}
+
 
 .menu:link {
     color:#E89A1C;
+    font-size:20px;
+    font-weight: 100;
 }
 
 .menu:visited {
     color: #E89A1C;
+    font-size:20px;
 }
 
 .menu:hover{
     border-bottom: #E89A1C 1px solid;
+    font-size:20px;
 }
 
 .leaf{
@@ -196,7 +224,9 @@ main{
 footer{
     width:1240px;
     height:200px;
+   
 }
+
 
 
 
